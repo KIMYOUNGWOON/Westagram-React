@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Login from './pages/login/login';
 import './index.scss';
+import Router from './Router';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Login />);
+root.render(<Router />);

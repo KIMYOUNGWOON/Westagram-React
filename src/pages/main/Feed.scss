@@ -1,0 +1,70 @@
+.feed {
+  width: 820px;
+  border: 1px solid #e6e6e6;
+  margin-left: 100px;
+  margin-top: 70px;
+
+  .top {
+    display: flex;
+    align-items: center;
+  }
+  .feedImg {
+    width: 819px;
+  }
+}
+
+.top {
+  .profileImg {
+    width: 45px;
+    margin: 5px 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 50%;
+  }
+
+  h2 {
+    flex-grow: 1;
+    font-size: 20px;
+  }
+
+  .icon {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+}
+
+.iconArea {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  margin-left: 20px;
+  font-size: 28px;
+
+  .heartIcon {
+    color: #ee4955;
+  }
+
+  .bookmarkIcon {
+    padding-left: 610px;
+  }
+}
+
+.postArea {
+  margin-left: 20px;
+  font-size: 18px;
+
+  img {
+    width: 25px;
+    border-radius: 50%;
+  }
+
+  .like {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  span {
+    color: #9a9a9a;
+  }
+}
