@@ -1,10 +1,10 @@
 import React from 'react';
-import Facebook from './facebook';
-import Forgotpassword from './forgotpassword';
-import LoginForm from './loginform';
-import SignUp from './signup';
-import Westagram from './westagram';
-import './login.scss';
+import Facebook from './Facebook';
+import Forgotpassword from './Forgotpassword';
+import LoginForm from './Loginform';
+import SignUp from './Signup';
+import Westagram from './Westagram';
+import './Login.scss';
 
 function Login() {
   return (

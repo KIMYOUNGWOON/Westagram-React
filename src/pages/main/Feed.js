@@ -1,4 +1,5 @@
 import React from 'react';
+import CommentBoard from './CommentBoard';
 import {
   faArrowUpFromBracket,
   faEllipsis,
@@ -8,8 +9,8 @@ import { faBookmark, faComment } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import profile1 from '../../assets/main-images/profile1.jpg';
 import profile2 from '../../assets/main-images/profile2.jpg';
-import './Feed.scss';
 import feedImg from '../../assets/main-images/feedimege.jpg';
+import './Feed.scss';
 
 function Feed() {
   return (
@@ -26,18 +27,19 @@ function Feed() {
         <FontAwesomeIcon className="arrowIcon" icon={faArrowUpFromBracket} />
         <FontAwesomeIcon className="bookmarkIcon" icon={faBookmark} />
       </div>
-      <div class="postArea">
-        <div class="like">
+      <div className="postArea">
+        <div className="like">
           <img src={profile2} alt="profileimage" />
           <p>
             <b>ee_tiquettecvide</b>님 <b>외 10명</b>이 좋아합니다.
           </p>
         </div>
-        <p class="post">
+        <p className="post">
           <b>kasina_official</b> 스니커즈의 문화와 역사가 바로 여기, 에어맥스...
           <span>더보기</span>
         </p>
       </div>
+      <CommentBoard />
     </div>
   );
 }

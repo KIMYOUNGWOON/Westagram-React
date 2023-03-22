@@ -1,6 +1,6 @@
 import React from 'react';
 import facebookImg from '../../assets/facebook.png';
-import './facebook.scss';
+import './Facebook.scss';
 
 function Facebook() {
   return (

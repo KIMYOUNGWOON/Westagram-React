@@ -1,5 +1,5 @@
 import React from 'react';
-import './westagram.scss';
+import './Westagram.scss';
 
 function Westagram() {
   return <h1>Westagram</h1>;
